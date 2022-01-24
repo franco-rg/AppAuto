@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infocarsapp.Start_Fragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/car_bg_app"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="174dp"/>
+
+    <TextView
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/louis"
+        android:lineSpacingExtra="-18sp"
+        android:text="InfoAutos"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="52sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.2"
+        android:textAlignment="center"
+        android:text="@string/descriptionApp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:fontFamily="@font/boldcondenseditalic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <Button
+        android:id="@+id/nextButtonList"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="168dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/button_next_viewStart"
+        android:textAllCaps="false"
+        app:cornerRadius="100dp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <Button
+        android:id="@+id/nextButtonUser"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:text="View User Image"
+        android:textAllCaps="false"
+        app:cornerRadius="100dp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="@font/louis"
+        android:text="@string/copyright"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

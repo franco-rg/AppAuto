@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- pallet color application -->
+    <color name="text">#282828</color>
+    <color name="colorPrimaryDark">#197EC7</color>
+    <color name="colorSecondary">#4F9ED7</color>
+    <color name="colorSecondaryDark">#383838</color>
+    <color name="colorAccent">#dadce0</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
